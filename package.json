@@ -7,11 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
 	"start":"node index.js"
   },
-  
-  "keywords": [
-    "mine"
-  ],
   "author": "ogo emele",
-  "license": "ISC",
-  
+  "license": "ISC"
 }
