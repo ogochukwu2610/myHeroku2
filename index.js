@@ -12,5 +12,3 @@ response.end('Hello World\n');
 }).listen(PORT, () => {
 	console.log('Our app is running on port ${PORT}');
 });
-
-
