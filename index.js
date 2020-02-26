@@ -10,7 +10,7 @@ response.writeHead(200, {
 	'Content-Type': 'text/plain',
 	'Access-Control-Allow-Origin' : '*'
 	});
-	var readStream = fs.createReadStream(__dirname + 'index.html');
+	var readStream = fs.createReadStream(__dirname + '/index.html');
 	//send a message
 	readStream.pipe(response);
 //send the response body as "Hello World"
