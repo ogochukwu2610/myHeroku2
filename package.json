@@ -8,5 +8,8 @@
 	"start":"node index.js"
   },
   "author": "ogo emele",
+  "dependencies": {
+  "express": "~4.13.4"
+  },
   "license": "ISC"
 }
